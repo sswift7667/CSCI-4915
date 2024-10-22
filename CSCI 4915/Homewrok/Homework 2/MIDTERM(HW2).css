@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+}
+
+header,
+div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    color: white;
+    background-color: black;
+    
+    border: 0px solid green;
+    
+    border-width: 0px;
+    border-style: solid;
+    border-color: purple;
+
+    text-align: center;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+main{
+    display:flex
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+    
+    background-color: black;
+    border: 3px solid purple;
+    text-align: center;
+
+}
+aside{
+background-color: black;
+border: 3px solid purple;
+margin:0;
+padding: 0;
+width: 30%;
+
+}
+
+
+
+
+.navTop{
+    list-style-type: none;
+   /*
+    border:1px dashed blue;
+  */
+    padding-left: 0.312rem;
+    text-align : left;
+    font-size: 2rem;
+    background-color: black;
+    margin:0px;
+    padding: 0.625rem;
+
+
+}
+
+.navTop > li{
+    display: inline-block;
+    box-shadow: 2px 5px 5px purple, 2px 5px 5px gray;
+
+    position: relative;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(83, 4, 72, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navTop>li:hover .dropdown-content {
+    display: block;
+}
+
+.myNavButton{
+    width: 8.75rem;
+    height: 1.875rem;
+    position: relative;
+    display: inline-block;
+}
+
+article{
+background-color: black;
+border: 3px solid purple; 
+margin:0;
+padding: 0;
+width: 70%;
+float: right;
+}
+footer{
+
+    font-family: sofia;
+    font-size: 2rem;
+    color: white;
+   
+    background-color: black;
+ 
+    border: 3px solid purple;
+    text-align: center;
+  /*
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin:0;
+*/
+    width:100%;
+    clear:both;
+
+/*    position: relative;
+*/
+/*
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    text-decoration-style: double;
+*/
+/*
+    text-transform:uppercase;
+*/
+    letter-spacing: 0.321rem;
+    line-height: 4rem;
+
+    text-shadow: 0.321rem 0.321rem 0.321rem purple ;
+
+    font-weight: 100;
+
+    font-variant: small-caps;
+    font-variant-caps: petite-caps;
+
+}
+
+.tail{
+ 
+
+    background-color: purple;
+    color: white;
+    font-size: 2rem;
+}
+
+
+.gallery {
+    margin: 5px;
+    border: 1px solid purple;
+    /*
+    float: left;
+    width: 180px;
+*/
+}
+.gallery:hover {
+    border: 1px solid #777;
+}
+.gallery img {
+    width: 100%;
+}
+.desc {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.myContainer{
+    display: flex;
+    border: 1vw solid purple;
+    width: 100vw;
+}
+
+.card{
+ /*   display: inline-block;*/
+
+    width: 40vw;
+    border: 1vw solid purple;
+    margin-right: 0.5rem;
+/*
+    width: 15rem;
+*/
+    box-shadow: 4px 4px 8px 0 purple,
+    4px 6px 20px 0 purple;
+    text-align: center;
+    
+}
+
+.card h2{
+
+    font-size: 2vw;
+    /*
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.625rem;
+*/
+}
+.flex-container {
+    display: flex;
+    font-size: 2rem;
+    width: fit-content;
+    height: fit-content;
+}
+.logo {
+    font-size: 12px;
+    float: left;
+}
+.item {
+    width: fit-content; /* Using vw unit for width */
+    height: fit-content;
+    background-color: black;
+    border: 1vw solid purple;
+    margin: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+html{
+    background-color: black;
+    border: 1vw solid purple;
+}
