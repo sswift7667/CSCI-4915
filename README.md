@@ -1,4 +1,4 @@
-# Class Work Repository
+# CSCI 4915
 
 This repository contains my class assignments, projects, and notes from various courses.
 
